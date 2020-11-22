@@ -4,6 +4,8 @@
 Route::get('/', 'MainController@index');
 Route::get('/m','MainController@management');
 
+//auth route
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('frontEnd.pages.home');
